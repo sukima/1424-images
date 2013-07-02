@@ -1,0 +1,33 @@
+{
+  "name":        "1424-images",
+  "version":     "0.0.1",
+
+  "author":      "Devin Weaver <suki@tritarget.org>",
+
+  "description": "A simple HTTP server app to display the current turn for the 1 4 24 dice game",
+
+  "licenses": [{
+    "type": "WYWTPL",
+    "url":  "http://tritarget.org/wywtpl/COPYING"
+  }],
+
+  "repository" : {
+    "type": "git",
+    "url":  "https://github.com/sukima/1424-images.git"
+  },
+
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+
+  "dependencies": {
+    "coffee-script": ">= 1.4.x",
+    "express":       ">= 3.1.x",
+    "gm":            ">= 1.9.x"
+  },
+
+  "engines": {
+    "node": ">= 0.8.x",
+    "npm":  ">= 1.1.x"
+  }
+}
