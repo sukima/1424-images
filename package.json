@@ -17,7 +17,7 @@
   },
 
   "scripts": {
-    "start": "node ./src/app.js",
+    "start": "coffee ./src/app.coffee",
     "test":  "jasmine-node --coffee test"
   },
 

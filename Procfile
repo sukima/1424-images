@@ -1,1 +1,1 @@
-web: coffee ./src/app.coffee
+web: npm run-script start
